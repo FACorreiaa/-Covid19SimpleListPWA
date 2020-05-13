@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve -s build",
-    "build-sw": "sudo workbox generateSW workbox-config.js",
+    "build-sw": "sudo rm -rf build && sudo npm run build && sudo workbox generateSW workbox-config.js",
     "run-build": "http-server build/ -c 0",
     "start-sw": "sudo workbox copyLibraries build/ && sudo workbox injectManifest workbox-config.js && http-server build/ -c 0"
   },

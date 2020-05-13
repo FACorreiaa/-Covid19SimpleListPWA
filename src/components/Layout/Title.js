@@ -1,21 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.jpeg";
-import {
-  Grid,
-  Container,
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  Typography,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
-} from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 function Title() {
   // Import result is the URL of your image
   return (
