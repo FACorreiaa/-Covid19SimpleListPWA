@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "serve": "serve -s build",
     "build-sw": "sudo workbox generateSW workbox-config.js",
-    "server-build": "http-server build/ -c 0",
+    "run-build": "http-server build/ -c 0",
     "start-sw": "sudo workbox copyLibraries build/ && sudo workbox injectManifest workbox-config.js && http-server build/ -c 0"
   },
   "eslintConfig": {
