@@ -1,0 +1,25 @@
+{
+  "short_name": "Covid List",
+  "name": "Covid API List",
+  "icons": [
+    {
+      "src": "images/coronaicone.png",
+      "sizes": "640x640",
+      "type": "image/png"
+    },
+    {
+      "src": "images/covid.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo.jpeg",
+      "sizes": "150x150",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
